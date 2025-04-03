@@ -38,3 +38,8 @@ function getRandomColor() {
 randomColorButton.addEventListener('click', function() {
     randomColorButton.style.backgroundColor = getRandomColor();
 });
+
+function changeBtnStyle() {
+    const btn = document.querySelector(".cool-btn");
+    btn.classList.toggle("glow"); // Toggles glow effect
+}
