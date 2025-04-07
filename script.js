@@ -43,3 +43,12 @@ function changeBtnStyle() {
     const btn = document.querySelector(".cool-btn");
     btn.classList.toggle("glow"); // Toggles glow effect
 }
+
+// Exercise: Dark Mode
+const darkModeBtn = document.querySelector('.darkmode');
+
+darkModeBtn.addEventListener('click', function() {
+    document.body.classList.toggle("darkmode");
+    console.log(darkModeBtn.innerText);
+    document.body.classList.contains('darkmode') ? darkModeBtn.textContent = 'light mode' : darkModeBtn.textContent = 'dark mode';
+})
