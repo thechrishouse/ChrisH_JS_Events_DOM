@@ -17,3 +17,8 @@
     background-color:#0f0f0f;
     color: whitesmoke;
 }
+
+.taskCompleted {
+    text-decoration: line-through;
+    background-color: rgb(0, 172, 0);
+}
